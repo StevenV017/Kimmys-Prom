@@ -116,7 +116,7 @@ h4{
     flex-wrap: wrap;
     width: 100%;
     img{
-        max-height: 300px;
+        max-height: 320px;
         padding: 1vw;
     }
 }
