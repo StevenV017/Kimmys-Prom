@@ -100,10 +100,13 @@ h4{
 /*Encabezado, img principal y 7 img secundarias*/
 #gift{
     h1{
-        margin-bottom: 0;
+        margin-top: 0;
     }
     img{
         height: 120px;
+    }
+    h4{
+        padding: 0 5%;
     }
 }
 .gift_shower{
