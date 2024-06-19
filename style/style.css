@@ -3,6 +3,7 @@
 /****************************************/
 body{
     margin: 0;
+    filter: drop-shadow(0 0 20px #3bab94);
     background-color: #090e12;
     color: #FDECE3;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -28,11 +29,11 @@ h4{
 /***************(Imagen)***************/
 #Portrait{
     width: 100%;
-}
-#Portrait img{
-    width: 100%;
-    min-width: 600px;
-    filter: drop-shadow(0 0 40px rgba(9,14,18,1));
+    img{
+        width: 100%;
+        min-width: 600px;
+        filter: drop-shadow(0 0 40px rgba(9,14,18,1));
+    }
 }
 
 /********~~~Sección general~~~********/
@@ -69,16 +70,24 @@ h4{
 
 /**********Locación**********/
 /*Encabezado, imagen y mapa*/
+#carrito{
+    h1{
+        margin-bottom: 0;
+    }
+    img{
+        width: 70%;
+    }  
+}
 #mapdiv{
     display: flex;
     justify-content: space-around;
-    padding: 5%;
-}
-#mapdiv div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 5%;
+    padding: 0 5% 5% 5%;
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 5%;
+    }
 }
 #map{
     width: 40%;
@@ -86,44 +95,27 @@ h4{
     border: 0;
 }
 /*Código de vestimenta*/
-/*Dos <p></p>*/
 
 /****************Mesa de regalos*****************/
 /*Encabezado, img principal y 7 img secundarias*/
-#gift h1{
-    margin-bottom: 0;
-}
-#gift img{
-    height: 70px;
+#gift{
+    h1{
+        margin-bottom: 0;
+    }
+    img{
+        height: 120px;
+    }
 }
 .gift_shower{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 100%;
+    img{
+        max-height: 20vw;
+        padding: 1vw;
+    }
 }
-#icon_giftl{
-    max-width: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-#icon_giftl img{
-    width: 100%;
-}
-#icon_giftr{
-    width: 35%;
-}
-#icon_giftr img{
-    width: 100%;
-}
-#icon_gifts{
-    display: flex;
-    justify-content: space-between;
-}
-#icon_gifts img{
-    width: 47%;
-}
-/*Cambio de imgs*/
 
 /*Confirmación de asistencia*/
 /********Dos botones********/
@@ -161,13 +153,16 @@ footer{
     justify-content: space-around;
     align-items: center;
     padding-bottom: 30px;
-}
-footer a input{
-    width: 300px;
-    height: 50px;
-    font-family: inherit;
-    font-size: 14pt;
-    border-radius: 8pt;
-    background-color: #FDECE3;
-    color: #090e12;
+    a input{
+        width: 300px;
+        height: 50px;
+        font-family: inherit;
+        font-size: 14pt;
+        border-radius: 8pt;
+        background-color: #FDECE3;
+        color: #090e12;
+    }
+    h3{
+        text-align: center;
+    }
 }
