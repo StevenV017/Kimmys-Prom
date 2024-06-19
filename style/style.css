@@ -75,7 +75,7 @@ h4{
         margin-bottom: 0;
     }
     img{
-        width: 70%;
+        height: 6vw;
     }  
 }
 #mapdiv{
@@ -112,7 +112,7 @@ h4{
     flex-wrap: wrap;
     width: 100%;
     img{
-        max-height: 30vw;
+        max-height: 300px;
         padding: 1vw;
     }
 }
@@ -127,15 +127,14 @@ h4{
 #confirmationButtons{
     display: flex;
     height: 100px;
-    min-width: 400px;
-    max-width: 720px;
+    width: 80%;
     align-items: center;
     justify-content: space-around;
     
 }
 .button{
     width: 250px;
-    height: 40px;
+    height: 60px;
     font-family: inherit;
     font-weight: bold;
     font-size: 14pt;
@@ -147,15 +146,16 @@ h4{
 /*********(Un div con 9 divs)********/
 footer{
     background-color: #954021;
+    min-width: 888px;
     height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 30px;
-    a input{
+    input{
         width: 300px;
-        height: 50px;
+        height: 60px;
         font-family: inherit;
         font-size: 14pt;
         border-radius: 8pt;
