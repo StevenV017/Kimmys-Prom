@@ -80,22 +80,22 @@ h4{
 }
 #mapdiv{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
-    padding: 0 5% 5% 5%;
-    div{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 5%;
-    }
+    align-items: center;
+    padding: 5%;
 }
 #map{
-    width: 40%;
-    height: 250px;
+    width: 70%;
+    height: 350px;
     border: 0;
 }
 /*Código de vestimenta*/
-
+#dresscode{
+    h4{
+        font-size: 2vw;
+    }
+}
 /****************Mesa de regalos*****************/
 /*Encabezado, img principal y 7 img secundarias*/
 #gift{
@@ -107,7 +107,7 @@ h4{
     }
     h4{
         padding: 0 5%;
-        font-size: 6pt;
+        font-size: 1vw;
     }
 }
 .gift_shower{
@@ -116,7 +116,7 @@ h4{
     flex-wrap: wrap;
     width: 100%;
     img{
-        max-height: 320px;
+        max-height: 370px;
         padding: 1vw;
     }
 }
